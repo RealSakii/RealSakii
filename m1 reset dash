@@ -80,9 +80,9 @@ plr.CharacterAdded:Connect(noEndlagSetup)
 
 if not getgenv().DisableNotification then
 	stgui:SetCore("SendNotification", {
-		Title = "☆RealSakii☆",
+		Title = "☆lastsprite☆",
 		Icon = "rbxassetid://133256475976305",
-		Text = "m1 reset script",
+		Text = "m1 reset",
 		Duration = 10,
 		Button1 = "Dismiss",
 		Callback = function() end
