@@ -84,3 +84,14 @@ RunService.RenderStepped:Connect(function()
 		end
 	end
 end)
+
+if not getgenv().DisableNotification then
+	stgui:SetCore("SendNotification", {
+		Title = "☆lastsprite☆",
+		Icon = "rbxassetid://133256475976305",
+		Text = "smart aimbot(M3)",
+		Duration = 10,
+		Button1 = "Dismiss",
+		Callback = function() end
+	})
+end
