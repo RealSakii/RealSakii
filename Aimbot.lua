@@ -10,7 +10,7 @@ local Mouse = LocalPlayer:GetMouse()
 -- SETTINGS
 local AIM_KEY = Enum.UserInputType.MouseButton2
 local FOV_RADIUS = 500
-local MAX_DISTANCE = 30
+local MAX_DISTANCE = 50
 local SMOOTHNESS = 1.5
 local AIM_PART = "HumanoidRootPart"
 
@@ -95,6 +95,7 @@ if not getgenv().DisableNotification then
 		Callback = function() end
 	})
 end
+
 
 
 
